@@ -1,0 +1,14 @@
+.about { padding:100px 50px; 
+    background:#222; color:#fff; 
+    text-align:center; 
+}
+.tech-stack { list-style:none; 
+    padding:0; display:flex; 
+    justify-content:center; 
+    gap:20px; 
+    margin-top:20px; 
+}
+.tech-stack li { background:#333; 
+    padding:10px 15px; 
+    border-radius:10px; 
+}

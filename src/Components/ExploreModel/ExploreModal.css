@@ -1,0 +1,86 @@
+.modal {
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  background: rgba(0,0,0,0.7);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:1000;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+.modal-box {
+  background:#fff;
+  border-radius:15px;
+  max-width:900px;
+  width:90%;
+  display:flex;
+  overflow:hidden;
+  animation: scaleUp 0.3s ease forwards;
+}
+
+@keyframes scaleUp {
+  from {transform: scale(0.7); opacity:0;}
+  to {transform: scale(1); opacity:1;}
+}
+
+.close-btn {
+  position:absolute;
+  top:15px;
+  right:15px;
+  background:none;
+  border:none;
+  font-size:24px;
+  cursor:pointer;
+}
+
+.modal-content {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+}
+
+.modal-image img {
+  width:100%;
+  max-width:400px;
+  object-fit:cover;
+}
+
+.modal-info {
+  flex:1;
+  padding:20px;
+}
+
+.modal-info h1 {
+  margin-bottom:10px;
+}
+
+.modal-info .price {
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.specs span {
+  margin-right:15px;
+}
+
+.desc {
+  margin-top:10px;
+  line-height:1.5;
+}
+
+.book-btn {
+  margin-top:15px;
+  padding:10px 20px;
+  background:#ff6600;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
