@@ -36,7 +36,6 @@ Browse through EV models and charging stations
 Use the contact form to send inquiries
 Screenshots
 
-(Add screenshots of your website here)
 
 Contribution
 Fork the repository
